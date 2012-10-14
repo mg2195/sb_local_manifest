@@ -1,0 +1,20 @@
+How to build:
+
+1) First you need to sync Slim Bean:
+	A) mkdir slimbean
+	B) cd slimbean
+	C) repo init -u git://github.com/SlimRoms/platform_manifest.git -b jb
+	D) repo sync
+
+2) Now you need to clone my local manifest:
+	A) cd ~/slimbean/.repo
+	B) git clone git://github.com/mg2195/sb_local_manifest.git 
+	C) repo sync
+
+3) Now you can build:
+	A) . build/envsetup.sh
+	B) lunch
+	c) pick the infuse from the menu
+	D) mka bacon
+
+4) relax, eat some pizza, go for a walk...do something, this can take a while...your finished product will be located in /slimbean/out/target/product/infuse4g
