@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="mg2195/sb_device_samsung_infuse4g" path="device/samsung/infuse4g" remote="github" revision="jellybean" />
-  <project name="mg2195/sb_local_manifest" path=".repo" remote="github" revision="jellybean" />
   <remove-project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb" />
   <project name="mg2195/vendor_slim" path="vendor/slim" remote="github" revision="jb" />
   <project name="scotthartbti/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="jellybean" />
