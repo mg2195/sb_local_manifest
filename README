@@ -7,8 +7,8 @@ How to build:
 	D) repo sync
 
 2) Now you need to clone my local manifest:
-	A) cd ~/slimbean/.repo
-	B) git clone git://github.com/mg2195/sb_local_manifest.git 
+	A) git clone git://github.com/mg2195/sb_local_manifest.git
+	B) cp sb_local_manifest/local_manifest.xml .repo 
 	C) repo sync
 
 3) Now you can build:
